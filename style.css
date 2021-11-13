@@ -1,0 +1,67 @@
+::selection {
+  color: var(--dew-oil, black);
+  background: var(--dew-ink, pink);
+}
+
+.dew-diy {
+  --dew-solar: pink;
+  --dew-lunar: indigo;
+}
+
+.dew1 {
+  --dew-solar: powderblue;
+  --dew-lunar: mediumblue;
+}
+
+.dew2 {
+  --dew-solar: violet;
+  --dew-lunar: black;
+}
+
+.dew3 {
+  --dew-solar: aquamarine;
+  --dew-lunar: black;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.5;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  padding-inline: 1vw;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  margin-block: 1vh;
+  padding-inline: 1vw;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+dt,
+dd {
+  padding-inline: 1vw;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-inline-start: 1vw;
+}
+
+aside,
+footer {
+  font-size: .8rem;
+  padding-block: 1vh;
+  padding-inline: 1vw;
+}
